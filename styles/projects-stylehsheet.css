@@ -1,0 +1,12 @@
+body {
+  background: aqua;
+}
+
+img {
+  border: 15px solid blue;
+}
+
+nav {
+  border: 5px solid gold;
+  padding:1px;
+}
