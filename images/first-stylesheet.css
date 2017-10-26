@@ -1,0 +1,67 @@
+html {
+    background: aqua;
+}
+
+img { 
+  border: 15px solid pink;
+  display:block;
+  margin-left:auto;
+  margin-right:auto
+}
+
+img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+  
+a:hover {
+  text-decoration: overline;
+}
+h1{ 
+  text-align: center; 
+  font-family: cursive;
+  font-size: 45px;
+  border: 25px double gold;
+  background-color: salmon;
+    padding-top: 20px;
+    padding-right: 18px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+}
+
+h1:hover {
+  color: pink;
+}
+nav{
+  text-align: center;
+}
+body{
+  border: 5px dotted gold;
+  padding: 30px;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  border-top: solid gold;
+}
+
