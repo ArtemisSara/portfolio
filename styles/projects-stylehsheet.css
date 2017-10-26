@@ -3,10 +3,33 @@ body {
 }
 
 img {
-  border: 15px solid blue;
+  border: 5px solid pink;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+article{
+  text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+body{
+  border: 5px dotted gold;
+}
+
+footer{ 
+  padding: 10px;
+  text-align: center
+}
 nav {
-  border: 5px solid gold;
-  padding:1px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: overline;
 }
