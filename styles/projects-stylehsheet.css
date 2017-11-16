@@ -1,0 +1,46 @@
+body {
+  background: aqua;
+}
+h1 {
+  font-family: cursive
+}
+img {
+  border: 5px solid pink;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+figcaption {
+  text-align: center;
+  margin-top: 4px;
+  font-size: 12px;
+}
+a:hover {
+  text-decoration: overline;
+}
+article{
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+body{
+  border: 5px dotted gold;
+  padding: 10px;
+}
+
+footer{ 
+  padding: 10px;
+  text-align: center;
+  line-height: normal;
+}
+nav {
+  padding: 15px;
+  text-align: center;
+}
