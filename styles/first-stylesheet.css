@@ -1,3 +1,93 @@
-body { background-color: aqua
+body { background-color: aquamarine;
+}
+
+h1 {
+  font-family: 'Sofia';
+  font-size: 65px;
+  text-align: left;
+  text-align: center;
+  color: darkcyan;
+}
+
+img {
+  float: left;
+  overflow:auto;
+}
+
+nav {
+  float:none;
+  padding-top:25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+li {
+    float: left;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-repeat: repeat;
+}
+
+li a {
+    display: block;
+    color: darkcyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightgreen;
+    border-radius: 10px;
+   
+}
+
+.active {
+  color: lightgreen;
+  border-radius: 10px;
+}
+
+section {
+  background-color: lightgreen;
+  padding-bottom: 100px
+}
+
+p {
+  margin:auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+#para2 {
+  color: darkcyan;
+  padding-top: 10px;
+}
+
+#para3 {
+  color: darkcyan;
+  padding-top: 10px;
+}
+
+i {
+  padding-top: 5px;
+  
+}
+ .fa:hover {
+  color: deepskyblue;
+}
+footer {
+  text-align: center;  
+}
+
+i {
+  color:darkcyan;
+  text-align: center;
   
 }
